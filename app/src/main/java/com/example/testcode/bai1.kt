@@ -8,8 +8,9 @@ import androidx.core.view.WindowInsetsCompat
 
 class bai1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
     }
